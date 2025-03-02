@@ -72,9 +72,12 @@ requestAnimationFrame(moveCar);
   
       // Animate the fanta image
       tl2.to("#fanta", {
-        top: "240%", // Move the image vertically down
+        top: "250%", // Move the image vertically down
         left: "30%", // Move the image horizontally to the right
         ease: "power2.inOut", // Smooth easing
         scale:"1.2",
       });
     }); 
+
+    //third section animation 
+    
