@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img class="star" src="./img/star.png" alt="">
+                <div>Frost Inv.</div>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#">about</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">news</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>  
+    <div>
+        <div  id="container">
+            <div class="suncontainer">
+                <div></div>
+                <div class="sun"><img src="image/Sunlight Sun .png" alt="sun" height="100px"></div>
+            </div>
+
+            <div class="road-container">
+                <div class="road"></div>
+                <div class="road"></div>  <!-- Duplicate for seamless animation -->
+            </div>
+
+            <div class="city-wrapper">
+                <div class="city"></div>
+                <div class="city"></div> <!-- Duplicate for seamless movement -->
+              </div>
+              
+              
+                
+            </div>
+            
+
+            <section id="car">
+                <div class="car-body">
+                  <img src="image/car.png" alt="car-image" />
+                </div>
+                <div class="wheel">
+                  <img src="image/backwheel.png" class="back-wheel" alt="back-wheel" />
+                  <img src="image/frontwheel.png" class="front-wheel" alt="front-wheel" />
+                </div>
+              </section>
+        
+              <!-- Traffic Light -->
+              <section class="traffic-light">
+                <div class="">
+                  <img src="image/traffic-light.png" alt="" class="traffic-light-sign">
+                </div>
+                <div class="lights">
+                  <div class="light red"></div>
+                <div class="light yellow"></div>
+                <div class="light green"></div>
+                </div>
+              </section>
+        </div>
+        
+    </div>
+
+
+    <div>
+        <div class="two">
+            <div class="lft-two">
+                <img id="fanta" src="Assets/fanta.png" alt="">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#e04428" d="M41.5,-59.5C49.8,-51.1,49.7,-33.6,50.7,-19.2C51.7,-4.7,53.8,6.7,52.4,18.9C51.1,31.1,46.3,44.1,36.9,52.9C27.6,61.8,13.8,66.5,-2.5,70C-18.8,73.4,-37.7,75.6,-52.5,68.5C-67.3,61.5,-78.2,45.2,-84.5,27.1C-90.9,9,-92.7,-10.8,-80.5,-19.3C-68.3,-27.8,-42.1,-24.8,-26.3,-30.8C-10.6,-36.8,-5.3,-51.7,5.7,-59.5C16.6,-67.3,33.2,-68,41.5,-59.5Z" transform="translate(100 100)" />
+                  </svg>
+            </div>
+            <div class="rght-two">
+                <h1>Stock Updated</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, excepturi sed, itaque placeat id natus soluta veniam obcaecati qui a laborum laboriosam dolorem illum labore sit, voluptates commodi neque dolores tempore temporibus deleniti? Nobis, ratione hic error quis cum neque nulla laudantium nostrum sit nihil dolorum quisquam enim quaerat, eaque ex sequi, harum totam quia non! Labore, neque! Amet voluptatem illo similique recusandae! Ex quaerat quibusdam asperiores, ducimus tempore magni labore. Tenetur voluptas, quos ex repellendus provident mollitia laboriosam adipisci alias a impedit, cum accusamus rerum delectus eaque facilis veniam quia laborum incidunt ea assumenda! Eos magni aspernatur quod distinctio.</p>
+            </div>
+        </div>
+        
+        <div class="three">
+            
+            <div class="card">
+                <h1>Sunkool Window Flims</h1>
+                <button>Buy Now</button>
+            </div>
+            
+        </div>
+
+        <div class="four">
+            
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   
+    <!-- Locomotive Scroll (Optional, for smooth scrolling) -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
+
+</body>
+
+</html>
